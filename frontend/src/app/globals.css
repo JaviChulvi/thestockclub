@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fff1e0;
+  --foreground: #1a1a1a;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Serif font for headlines */
+.serif {
+  font-family: "Times New Roman", Times, Georgia, serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Smooth animations */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Financial newspaper styling */
+.prose {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.prose p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* Custom backdrop blur support for older browsers */
+@supports not (backdrop-filter: blur(10px)) {
+  .backdrop-blur-sm {
+    background-color: rgba(255, 241, 224, 0.9);
+  }
+}
+
+/* Print-style layout helpers */
+.newspaper-column {
+  column-count: 2;
+  column-gap: 2rem;
+  column-rule: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+  .newspaper-column {
+    column-count: 1;
+  }
+}
+
+/* Shadcn Accordion Animations for newspaper theme */
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+.animate-accordion-down {
+  animation: accordion-down 0.2s ease-out;
+}
+
+.animate-accordion-up {
+  animation: accordion-up 0.2s ease-out;
+}
+
+/* Card hover effects for newspaper styling */
+.card-newspaper {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-newspaper:hover {
+  box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.1);
+  transform: translate(-2px, -2px);
+}
+
+/* Button styles matching newspaper theme */
+.btn-newspaper {
+  background-color: #000;
+  color: #fff1e0;
+  border: 2px solid #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.2s;
+}
+
+.btn-newspaper:hover {
+  background-color: #fff1e0;
+  color: #000;
+}
+
+.btn-newspaper-outline {
+  background-color: #fff1e0;
+  color: #000;
+  border: 2px solid #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.2s;
+}
+
+.btn-newspaper-outline:hover {
+  background-color: #000;
+  color: #fff1e0;
+}

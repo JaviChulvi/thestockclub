@@ -1,0 +1,866 @@
+{
+  "header": {
+    "searchPlaceholder": "Search funds...",
+    "searchPlaceholderMobile": "Search ISIN or fund name...",
+    "noFundsFound": "No funds found",
+    "verifyAndRetry": "Verify the ISIN or name and try again",
+    "aiChat": "AI Chat",
+    "funds": "Funds",
+    "benchmarks": "Benchmarks",
+    "compare": "Compare",
+    "viewAll": "View All",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Log Out",
+    "siteName": "The Stock Club",
+    "siteTagline": "Financial Intelligence"
+  },
+  "home": {
+    "newBanner": "NEW",
+    "newBannerText": "AI agents specialized in investment fund analysis • Compare investment funds • Visualize holdings performance",
+    "headline": "Supercharge Your Investment Decisions with AI",
+    "subheadline": "Where Data Becomes Strategy",
+    "heroDescription": "The Stock Club democratizes access to professional investment tools. Make informed decisions with AI-powered analysis of over 44,000 global investment funds.",
+    "heroCTA1": "Try AI Chat",
+    "heroCTA2": "Explore Funds",
+    "clickToEnlarge": "Click to enlarge",
+    "capabilitiesTitle": "Powerful AI Capabilities at Your Fingertips",
+    "capabilitiesSubtitle": "Our AI agents understand investment fund analysis and provide instant insights",
+    "categorySearchTitle": "Smart Category Search",
+    "categorySearchDescription": "Ask in natural language about investment categories and get instant fund recommendations with detailed analysis.",
+    "categorySearchExample": "I want to invest in long-term fixed income",
+    "categorySearchResult1": "Long-Term EUR Fixed Income",
+    "categorySearchResult2": "Fixed Maturity Bonds",
+    "categorySearchCTA": "Try Category Search",
+    "holdingsTitle": "Holdings Analysis",
+    "holdingsDescription": "Discover what companies your funds invest in and analyze the performance of major holdings with comparative charts.",
+    "holdingsExample": "What companies does fund LU1482751903 invest in?",
+    "holdingsResult": "Top holdings: Taiwan Semiconductor (8.45%), Microsoft (6.40%), Apple (5.42%)...",
+    "holdingsCTA": "Analyze Holdings",
+    "comparisonTitle": "Fee Comparison",
+    "comparisonDescription": "Compare management fees, performance fees, and ongoing charges across multiple funds to find the best value.",
+    "comparisonExample": "Compare fees of the top 3 long-term fixed income funds",
+    "comparisonResult": "Management: 0.20% - 0.30% | Performance: 0% - 20%",
+    "comparisonCTA": "Compare Funds",
+    "additionalCapabilitiesTitle": "Additional Capabilities",
+    "ytdPerformanceTitle": "Top YTD Performers",
+    "ytdPerformanceDesc": "Discover funds with the best year-to-date returns",
+    "volatilityTitle": "Risk & Volatility",
+    "volatilityDesc": "Analyze risk metrics and volatility for any fund",
+    "drawdownTitle": "Drawdown Analysis",
+    "drawdownDesc": "Understand maximum drawdowns and recovery periods",
+    "multiFundTitle": "Multi-Fund Comparison",
+    "multiFundDesc": "Compare returns, fees, and metrics across funds",
+    "chatFeatureTitle": "Chat with AI Agents",
+    "chatFeatureDescription": "AI agents specialized in investment fund analysis will help you make informed decisions about your investments.",
+    "compareFeatureTitle": "Returns Calculator",
+    "compareFeatureDescription": "Project your investments and calculate expected returns. Simulate different scenarios and investment strategies.",
+    "analysisFeatureTitle": "Fund Analysis",
+    "analysisFeatureDescription": "Access detailed analysis of over 44,000 global funds. Compare returns, expense ratios, and risk metrics in real-time.",
+    "howItWorksTitle": "How It Works",
+    "howItWorksStep1Title": "Ask Questions",
+    "howItWorksStep1Description": "Use natural language to ask about funds, categories, or investment strategies.",
+    "howItWorksStep2Title": "Get AI Insights",
+    "howItWorksStep2Description": "Our AI analyzes 44,000+ funds and provides instant, data-driven recommendations.",
+    "howItWorksStep3Title": "Make Decisions",
+    "howItWorksStep3Description": "Compare options, analyze risks, and choose the best funds for your portfolio.",
+    "faqTitle": "Frequently Asked Questions",
+    "faqQuestion1": "How does the AI agent work?",
+    "faqAnswer1": "Our AI agent uses advanced language models combined with real-time data from over 44,000 investment funds. It understands natural language queries and provides instant analysis, recommendations, and insights based on historical performance, fees, risk metrics, and market trends.",
+    "faqQuestion2": "What data sources do you use?",
+    "faqAnswer2": "We aggregate data from leading financial providers including Morningstar, Yahoo Finance, and other institutional sources. Our database is updated regularly to ensure you have access to the most current fund information, prices, and holdings.",
+    "faqQuestion3": "Can I trust the investment recommendations?",
+    "faqAnswer3": "Our AI provides data-driven insights based on historical performance and analytics, but these should not be considered personalized financial advice. Past performance does not guarantee future results. Always consider your risk tolerance and investment goals before making decisions.",
+    "faqQuestion4": "How often is the data updated?",
+    "faqAnswer4": "Fund prices are updated daily, while other metrics like holdings and performance data are refreshed weekly or as new data becomes available from our providers. We continuously work to provide the most up-to-date information possible.",
+    "faqQuestion5": "Is there a cost to use The Stock Club?",
+    "faqAnswer5": "The Stock Club is currently free to use with full access to our AI chat, fund analysis, and comparison tools. We believe in democratizing access to professional investment analysis tools. Premium features may be introduced in the future.",
+    "faqQuestion6": "What makes The Stock Club different?",
+    "faqAnswer6": "Unlike traditional fund platforms, The Stock Club combines AI-powered natural language understanding with comprehensive data analysis. You can ask questions in plain language and get instant insights, rather than manually navigating complex spreadsheets and reports.",
+    "faqQuestion7": "Can the AI analyze specific fund categories?",
+    "faqAnswer7": "Yes! The AI understands investment categories like equity, fixed income, regional focus, and specific sectors. Just describe what you're looking for (e.g., 'European technology funds' or 'long-term bonds') and it will find relevant options.",
+    "faqQuestion8": "How do I compare multiple funds?",
+    "faqAnswer8": "You can use our comparison tool to analyze up to 5 funds simultaneously. Compare returns, fees, risk metrics, and visualize historical performance. Simply search for funds by ISIN or name and add them to your comparison.",
+    "keyBenefitsTitle": "Key Benefits",
+    "benefit1Title": "Democratic Access",
+    "benefit1Description": "Professional tools previously reserved only for large investors.",
+    "benefit2Title": "Informed Decisions",
+    "benefit2Description": "Updated data and deep analysis for every investment decision.",
+    "benefit3Title": "24/7 Assistant",
+    "benefit3Description": "Consult with our AI assistant at any time of day.",
+    "benefit4Title": "Total Transparency",
+    "benefit4Description": "No hidden fees, all information clear and accessible.",
+    "statsTitle": "By The Numbers",
+    "statsFunds": "Investment Funds",
+    "statsAssets": "Assets Under Management",
+    "statsMarkets": "Global Markets",
+    "statsAvailability": "AI Available",
+    "trustSignal": "No credit card required • Free forever",
+    "ctaTitle": "Ready to Make Smarter Investment Decisions?",
+    "ctaDescription": "Join thousands of investors using AI-powered analysis to optimize their portfolios.",
+    "ctaExploreFunds": "Explore Funds",
+    "ctaTryAI": "Start Free Chat"
+  },
+  "chatDemo": {
+    "online": "Online",
+    "inputPlaceholder": "Ask about funds, stocks...",
+    "scenario1User": "I want to learn about $AAPL",
+    "scenario1Response": "**Apple Inc. (AAPL)** trades at **224.32 USD** with a 1-year return of **+25.8%**.",
+    "scenario1ChartTitle": "AAPL — 90 days",
+    "scenario2User": "What companies does fund LU1482751903 invest in?",
+    "scenario2Response": "The **Amundi MSCI World** fund has the following top positions:",
+    "scenario2ChartTitle": "Top Holdings — 90d Performance",
+    "scenario3User": "What are the 3 best-performing funds in 90 days?",
+    "scenario3Response": "The **3 best-performing funds** in the last 90 days:",
+    "scenario4User": "I want to know more about fund IE0032126645",
+    "scenario4Response": "**Vanguard Global Stock Index Fund** — global equities with a TER of **0.18%**, one of the lowest on the market.",
+    "scenario4ChartTitle": "Price — 1 year",
+    "scenario4PriceLabel": "Price",
+    "scenario4VolatilityLabel": "Volatility",
+    "scenario5User": "Energy companies in Canada",
+    "scenario5Response": "I found **12 companies** in the energy sector in Canada:",
+    "scenario5ChartTitle": "Results",
+    "scenario5Count": "12 companies"
+  },
+  "footer": {
+    "tagline": "Your AI-Powered Investment Analysis Platform",
+    "productsTitle": "Products",
+    "aiChat": "AI Chat",
+    "fundAnalysis": "Fund Analysis",
+    "comparison": "Comparison",
+    "benchmarks": "Benchmarks",
+    "resourcesTitle": "Resources",
+    "documentation": "Documentation",
+    "guides": "Guides",
+    "support": "Support",
+    "legalTitle": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "brandDescription": "The leading platform for investment fund analysis and portfolio management. Access institutional-grade financial intelligence to optimize your investments.",
+    "sectionsTitle": "Sections",
+    "sectionsFunds": "Investment Funds",
+    "sectionsBenchmarks": "Benchmarks",
+    "toolsTitle": "Tools",
+    "toolsAIChat": "AI Chat",
+    "toolsCompare": "Compare",
+    "legalNotice": "Legal Notice",
+    "copyright": "All rights reserved.",
+    "copyrightLine": "© {year} The Stock Club Financial Intelligence. All rights reserved."
+  },
+  "fundCard": {
+    "label": {
+      "ytdReturn": "YTD Return",
+      "last90Days": "90 Days"
+    },
+    "button": {
+      "viewFullAnalysis": "View Full Analysis"
+    }
+  },
+  "stockCard": {
+    "label": {
+      "marketCap": "Market Cap",
+      "oneYearReturn": "1 Year Return"
+    },
+    "button": {
+      "viewFullAnalysis": "View Full Analysis"
+    }
+  },
+  "fundSearch": {
+    "title": "Investment Fund Search",
+    "subtitle": "Find funds by ISIN or commercial name",
+    "placeholder": {
+      "search": "e.g., LU0178555495 or iShares MSCI World..."
+    },
+    "label": {
+      "isin": "ISIN",
+      "currentPrice": "Current price",
+      "fullPeriod": "full period",
+      "instructions": "INSTRUCTIONS:",
+      "selected": "Selected",
+      "selectedFundsForAnalysis": "Selected Funds for Analysis:"
+    },
+    "button": {
+      "add": "Add",
+      "remove": "Remove"
+    },
+    "message": {
+      "noResults": "No funds found matching \"{term}\"",
+      "limitReached": "⚠️ LIMIT REACHED: Maximum 5 funds allowed for comparative analysis",
+      "instructionsText": "Search by ISIN code (e.g., LU0178555495) or fund name."
+    }
+  },
+  "compare": {
+    "banner": {
+      "title": "ANALYSIS",
+      "subtitle": "Compare up to 5 funds simultaneously • Simulate investments with real historical data"
+    },
+    "title": "Fund Comparison Tool",
+    "subtitle": "Analyze and compare the performance of up to 5 investment funds with historical portfolio simulation",
+    "section": {
+      "investmentCapital": "Investment Capital",
+      "investmentCapitalDesc": "Set the initial amount for portfolio simulation",
+      "portfolioEvolution": "Portfolio Evolution",
+      "historicalSimulation": "Historical simulation: {amount}€ invested in each selected fund",
+      "comparisonAnalysis": "Comparative Returns Analysis",
+      "comparisonAnalysisDesc": "Detailed summary of performance for each fund in simulated portfolio",
+      "startAnalysis": "Start Comparative Analysis",
+      "startAnalysisDesc": "Use the search tool above to add investment funds and start comparing returns"
+    },
+    "table": {
+      "header": {
+        "fund": "Investment Fund",
+        "initialCapital": "Initial Capital",
+        "currentValue": "Current Value",
+        "result": "Result",
+        "performance": "Performance",
+        "management": "Management"
+      }
+    },
+    "button": {
+      "remove": "Remove"
+    },
+    "label": {
+      "instructions": "INSTRUCTIONS:"
+    },
+    "instructions": {
+      "step1": "Search by ISIN or fund name",
+      "step2": "Select up to 5 funds to compare",
+      "step3": "Set the investment capital",
+      "step4": "Analyze the historical evolution"
+    },
+    "message": {
+      "maxFundsAlert": "Maximum 5 funds allowed to compare",
+      "fundAlreadyExists": "This fund is already in the comparison",
+      "loading": "Loading fund data...",
+      "error": "Error loading data"
+    }
+  },
+  "funds": {
+    "title": "Investment Fund Directory",
+    "subtitle": "Explore over 44,000 global funds with real-time analysis and professional performance metrics",
+    "filter": {
+      "all": "All Funds",
+      "equity": "Equity",
+      "fixedIncome": "Fixed Income",
+      "balanced": "Balanced",
+      "moneyMarket": "Money Market",
+      "selectCategory": "Filter by Category",
+      "allCategories": "All Categories"
+    },
+    "showing": "Showing {count} of {total} funds",
+    "button": {
+      "loadMore": "Load more funds"
+    },
+    "message": {
+      "loading": "Loading fund data...",
+      "loadingMore": "Loading more funds...",
+      "error": "Error loading data",
+      "noFunds": "No funds found",
+      "noFundsDesc": "Try adjusting your filters or search criteria",
+      "endOfResults": "You have seen all {total} available funds"
+    }
+  },
+  "stocks": {
+    "title": "Stock Market Directory",
+    "subtitle": "Explore stocks with real-time analysis and comprehensive market data",
+    "message": {
+      "loading": "Loading stock data...",
+      "error": "Error loading data",
+      "noStocks": "No stocks found",
+      "noStocksDesc": "No stocks available at the moment"
+    },
+    "marketStats": {
+      "title": "Market Statistics",
+      "stocksAnalyzed": "1,000+",
+      "stocksAnalyzedLabel": "Stocks Analyzed",
+      "marketCap": "$50T",
+      "marketCapLabel": "Market Cap Monitored",
+      "exchanges": "50+",
+      "exchangesLabel": "Global Exchanges",
+      "availability": "24/7",
+      "availabilityLabel": "Real-time Data"
+    }
+  },
+  "fundDetail": {
+    "banner": {
+      "title": "ANALYSIS",
+      "subtitle": "Detailed information of fund {isin} • Real-time updated data"
+    },
+    "header": {
+      "lastPrice": "Last Price",
+      "fundClasses": "Fund Classes:",
+      "manager": "Manager:"
+    },
+    "metrics": {
+      "ytdReturn": "YTD Return",
+      "ytdLabel": "Year to date",
+      "last90Days": "Last 90 Days",
+      "quarterlyLabel": "Quarterly",
+      "baseCurrency": "Base Currency",
+      "currencyLabel": "Currency"
+    },
+    "priceChart": {
+      "title": "Price History",
+      "dataRange": "Data from {start} to {end}"
+    },
+    "basicInfo": {
+      "title": "Basic Information",
+      "fullName": "Full Name",
+      "shortName": "Short Name",
+      "region": "Region",
+      "dataSource": "Data Source"
+    },
+    "fees": {
+      "title": "Commissions and Fees",
+      "feeType": "Commission Type",
+      "value": "Value",
+      "management": "Management Commission",
+      "performance": "Performance Commission",
+      "custody": "Custody Commission",
+      "ongoing": "Ongoing Charges",
+      "redemption": "Redemption Commission",
+      "subscription": "Subscription Commission"
+    },
+    "sectors": {
+      "title": "Sector Distribution",
+      "sector": "Sector",
+      "weight": "Weight"
+    },
+    "holdings": {
+      "title": "Main Holdings",
+      "name": "Name",
+      "symbol": "Symbol",
+      "percentage": "Percentage"
+    },
+    "assetClasses": {
+      "title": "Asset Distribution"
+    },
+    "bonds": {
+      "title": "Bond Characteristics",
+      "metric": "Metric",
+      "value": "Value",
+      "categoryAverage": "Category Average"
+    },
+    "equity": {
+      "title": "Equity Metrics",
+      "metric": "Metric",
+      "value": "Value",
+      "categoryAverage": "Category Average"
+    },
+    "additionalInfo": {
+      "title": "Additional Information",
+      "benchmark": "Benchmark",
+      "fundAssets": "Fund Assets",
+      "classAssets": "Class Assets",
+      "startDate": "Start Date",
+      "fundInfo": "Fund Information",
+      "family": "Family:",
+      "bondRatings": "Bond Ratings"
+    },
+    "navigation": {
+      "backToFunds": "← Back to Funds",
+      "consultAI": "Consult AI about this Fund"
+    },
+    "disclaimer": {
+      "title": "Legal Notice:",
+      "text": "The information displayed is for informational purposes only and does not constitute personalized financial advice. Past returns do not guarantee future results. Consider your risk tolerance and investment objectives before making decisions."
+    },
+    "message": {
+      "loading": "Loading fund information...",
+      "error": "Error loading fund",
+      "errorDesc": "No information found for this ISIN",
+      "notFound": "Fund"
+    }
+  },
+  "stockDetail": {
+    "banner": {
+      "title": "ANALYSIS",
+      "subtitle": "Detailed information of stock {ticker} • Real-time updated data"
+    },
+    "header": {
+      "currentPrice": "Current Price"
+    },
+    "metrics": {
+      "marketCap": "Market Cap",
+      "peRatio": "P/E Ratio",
+      "ytdReturn": "YTD Return",
+      "90DayReturn": "90 Days"
+    },
+    "priceChart": {
+      "title": "Price History",
+      "dataRange": "Data from {start} to {end} ({count} data points)"
+    },
+    "companyInfo": {
+      "title": "Company Information",
+      "sector": "Sector",
+      "industry": "Industry",
+      "country": "Country",
+      "employees": "Employees",
+      "website": "Website"
+    },
+    "valuation": {
+      "title": "Valuation Metrics",
+      "metric": "Metric",
+      "value": "Value",
+      "trailingPE": "Trailing P/E",
+      "forwardPE": "Forward P/E",
+      "priceToBook": "Price to Book",
+      "beta": "Beta"
+    },
+    "financial": {
+      "title": "Financial Performance",
+      "revenue": "Total Revenue",
+      "netIncome": "Net Income",
+      "profitMargin": "Profit Margin",
+      "roe": "Return on Equity"
+    },
+    "growth": {
+      "title": "Growth & Risk",
+      "revenueGrowth": "Revenue Growth",
+      "earningsGrowth": "Earnings Growth",
+      "52WeekHigh": "52-Week High",
+      "52WeekLow": "52-Week Low"
+    },
+    "summary": {
+      "title": "Business Summary"
+    },
+    "analyst": {
+      "title": "Analyst Recommendations",
+      "recommendation": "Recommendation",
+      "targetPrice": "Target Price",
+      "numAnalysts": "Number of Analysts"
+    },
+    "navigation": {
+      "backToStocks": "← Back to Stocks",
+      "consultAI": "Consult AI about this Stock"
+    },
+    "disclaimer": {
+      "title": "Legal Notice:",
+      "text": "The information displayed is for informational purposes only and does not constitute personalized financial advice. Past returns do not guarantee future results. Consider your risk tolerance and investment objectives before making decisions."
+    },
+    "message": {
+      "loading": "Loading stock information...",
+      "error": "Error loading stock",
+      "errorDesc": "No information found for this ticker"
+    }
+  },
+  "benchmark": {
+    "title": "Available Benchmarks",
+    "subtitle": "Explore reference indices ordered by popularity (number of associated funds)",
+    "banner": {
+      "title": "BENCHMARKS",
+      "subtitle": "Reference indices ordered by number of funds • {total} benchmarks available"
+    },
+    "showing": "Showing {count} of {total} benchmarks",
+    "button": {
+      "viewFunds": "View Related Funds",
+      "loadMore": "Load more benchmarks"
+    },
+    "message": {
+      "loading": "Loading benchmarks...",
+      "loadingMore": "Loading more benchmarks...",
+      "error": "Error loading benchmarks",
+      "noFunds": "No benchmarks found",
+      "noFundsDesc": "No benchmarks available in the system.",
+      "endOfResults": "You have seen all {total} available benchmarks"
+    },
+    "navigation": {
+      "backToFunds": "← Back to Funds",
+      "consulting": "Consult AI about Funds"
+    }
+  },
+  "benchmarkDetail": {
+    "banner": {
+      "title": "BENCHMARK",
+      "subtitle": "Funds related to {name} • {total} funds available"
+    },
+    "header": {
+      "label": "Benchmark",
+      "relatedFunds": "Related Funds"
+    },
+    "showing": "Showing {count} of {total} funds",
+    "button": {
+      "loadMore": "Load more funds"
+    },
+    "message": {
+      "loading": "Loading benchmark funds...",
+      "loadingMore": "Loading more funds...",
+      "error": "Error loading benchmark",
+      "errorDesc": "No information found for this benchmark",
+      "noFunds": "No funds found",
+      "noFundsDesc": "This benchmark has no associated funds in the system.",
+      "endOfResults": "You have seen all {total} available funds"
+    },
+    "navigation": {
+      "backToFunds": "Back to Funds",
+      "viewAll": "View All Funds",
+      "consulting": "Consult AI about Funds"
+    }
+  },
+  "chat": {
+    "title": "AI Chat Assistant",
+    "subtitle": "Get expert analysis and investment recommendations from our AI agents",
+    "placeholder": "Ask anything about funds, markets, or investment strategies...",
+    "button": {
+      "send": "Send",
+      "new": "New Chat"
+    },
+    "message": {
+      "loading": "AI is thinking...",
+      "error": "Error sending message"
+    }
+  },
+  "chatDetail": {
+    "title": "Chat Conversation",
+    "backToChats": "Back to Chats"
+  },
+  "auth": {
+    "login": {
+      "title": "Access the Club",
+      "subtitle": "Your gateway to institutional financial intelligence.",
+      "label": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "placeholder": {
+        "email": "your.email@domain.com",
+        "password": "Enter your password"
+      },
+      "button": {
+        "submit": "Access your account",
+        "authenticating": "Authenticating..."
+      },
+      "link": {
+        "forgotPassword": "Forgot your credentials?",
+        "noAccount": "Create new account"
+      },
+      "benefits": {
+        "title": "Why choose The Stock Club?",
+        "item1": "Institutional-quality fund analysis: Access institutional-grade fund analysis tools",
+        "item2": "Real-time data: Real-time data and portfolio tracking",
+        "item3": "AI-powered: Advanced algorithms for investment recommendations",
+        "item4": "Deep research: In-depth analysis of thousands of funds",
+        "item5": "Portfolio optimization: Advanced tools for risk management",
+        "security": "Your data is protected with enterprise-level security:",
+        "ssl": "SSL Encrypted",
+        "gdpr": "GDPR Compliant",
+        "soc2": "SOC 2 Certified"
+      },
+      "footer": "By accessing The Stock Club, you accept our",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "and": "and",
+      "message": {
+        "error": "Access denied: ",
+        "invalidCredentials": "Invalid email or password"
+      }
+    },
+    "register": {
+      "title": "Join the Club",
+      "subtitle": "Access institutional financial intelligence.",
+      "label": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password"
+      },
+      "placeholder": {
+        "password": "Min 10 chars, A-Z, a-z, 0-9, special",
+        "confirmPassword": "Re-enter your password"
+      },
+      "button": {
+        "submit": "Create account",
+        "creating": "Creating account..."
+      },
+      "link": {
+        "haveAccount": "Already have an account? Sign in here"
+      },
+      "benefits": {
+        "title": "Why choose The Stock Club?",
+        "item1": "Institutional-quality fund analysis: Access institutional-grade fund analysis tools",
+        "item2": "Real-time data: Real-time data and portfolio tracking",
+        "item3": "AI-powered: Advanced algorithms for investment recommendations",
+        "item4": "Deep research: In-depth analysis of thousands of funds",
+        "item5": "Portfolio optimization: Advanced tools for risk management",
+        "security": "Your data is protected with enterprise-level security:",
+        "ssl": "SSL Encrypted",
+        "gdpr": "GDPR Compliant",
+        "soc2": "SOC 2 Certified"
+      },
+      "footer": "By creating an account, you accept our",
+      "terms": "Terms of Service",
+      "and": "and",
+      "privacy": "Privacy Policy",
+      "success": {
+        "title": "Account Created Successfully!",
+        "message": "Your The Stock Club account has been created. You will be redirected to the login page shortly."
+      },
+      "message": {
+        "error": "Registration error: ",
+        "registrationFailed": "Registration failed. Please try again.",
+        "passwordMismatch": "Passwords do not match",
+        "passwordShort": "Password must be at least 10 characters long",
+        "passwordWeak": "Password must contain uppercase, lowercase, number, and special character"
+      }
+    }
+  },
+  "manager": {
+    "banner": {
+      "title": "MANAGER",
+      "subtitle": "Funds managed by {name} • {count} funds available"
+    },
+    "header": {
+      "label": "Fund Manager",
+      "managedFunds": "Managed Funds"
+    },
+    "message": {
+      "loading": "Loading manager funds...",
+      "error": "Error loading manager",
+      "errorDesc": "No information found for this manager",
+      "noFunds": "No funds found",
+      "noFundsDesc": "This manager has no registered funds in the system."
+    },
+    "navigation": {
+      "backToFunds": "← Back to Funds",
+      "viewAll": "View All Funds",
+      "consulting": "Consult AI about Funds"
+    }
+  },
+  "common": {
+    "button": {
+      "close": "Close",
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete": "Delete",
+      "edit": "Edit",
+      "back": "Back",
+      "send": "Send",
+      "sending": "Sending..."
+    },
+    "message": {
+      "loading": "Loading...",
+      "error": "An error occurred",
+      "success": "Operation completed successfully",
+      "noData": "No data available"
+    },
+    "label": {
+      "date": "Date",
+      "amount": "Amount",
+      "status": "Status"
+    }
+  },
+  "chatContent": {
+    "sidebar": {
+      "title": "Conversations",
+      "noConversations": "No conversations yet",
+      "newChat": "New Conversation"
+    },
+    "input": {
+      "placeholder": "Ask about investment funds, market trends, portfolio strategies...",
+      "disclaimer": "Disclaimer: The AI assistant may make mistakes. Verify important information before making investment decisions."
+    },
+    "quickPrompts": {
+      "title": "Frequent Queries"
+    },
+    "message": {
+      "error": "I apologize, but I'm having trouble connecting to my servers right now. Please try again in a moment."
+    }
+  },
+  "topHoldings": {
+    "title": "Main Participations - Comparative Performance",
+    "description": "Comparative evolution of percentage performance of main stocks from the start of the period",
+    "message": {
+      "loading": "Loading holdings data...",
+      "error": "Error loading holdings",
+      "noHoldingsData": "No holdings data available"
+    }
+  },
+  "stockRecommendations": {
+    "title": "Analyst Recommendations",
+    "subtitle": "Aggregated consensus of analysts for the fund's major holdings",
+    "positive": "🟢 Positive",
+    "neutral": "⚪ Neutral",
+    "negative": "🔴 Negative",
+    "sentiment": {
+      "veryPositive": "Very Positive",
+      "positive": "Positive",
+      "neutralPositive": "Neutral-Positive",
+      "neutralNegative": "Neutral-Negative",
+      "negative": "Negative"
+    },
+    "label": {
+      "recommendations": "recommendations",
+      "strongBuy": "Strong Buy",
+      "buy": "Buy",
+      "hold": "Hold",
+      "sell": "Sell",
+      "strongSell": "Strong Sell",
+      "positiveRecs": "Positive",
+      "neutralRecs": "Neutral",
+      "negativeRecs": "Negative"
+    },
+    "period": {
+      "current": "Current",
+      "oneMonth": "1 Month",
+      "twoMonths": "2 Months",
+      "threeMonths": "3 Months"
+    },
+    "consensusAnalysis": {
+      "title": "Consensus Analysis",
+      "text": "The <strong>{period}</strong> consensus shows <strongGreen>{positiveCount}</strongGreen> positive recommendations out of a total of <strongBlack>{totalCount}</strongBlack> analysts ({positivePercent}%). The overall sentiment is <strongSentiment>{sentiment}</strongSentiment> with a net score of <strongSentiment>{netScore}/100</strongSentiment>."
+    }
+  },
+  "comparisonChart": {
+    "noData": "No data to display",
+    "legend": {
+      "title": "Chart Legend:",
+      "initialCapital": "Initial Capital:"
+    }
+  },
+  "protectedRoute": {
+    "message": {
+      "loading": "Loading..."
+    },
+    "comingSoon": {
+      "title": "Coming Soon",
+      "description": "We are currently working on this exciting functionality. This feature is in active development and will be available soon.",
+      "betaTitle": "Become a Beta Tester",
+      "betaDescription": "Want early access? We're looking for beta testers to help us improve this feature. Get in touch to be among the first to try it!",
+      "contactButton": "Contact on LinkedIn",
+      "backButton": "Back to Home"
+    }
+  },
+  "adminRoute": {
+    "loading": "Loading...",
+    "accessDenied": {
+      "title": "Access Denied",
+      "description": "You do not have permission to access this page. This area is restricted to administrators only.",
+      "backButton": "Back to Home"
+    }
+  },
+  "adminHeader": {
+    "adminPanel": "Admin Panel",
+    "management": "Management Dashboard",
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "funds": "Funds",
+    "stocks": "Stocks",
+    "dataSync": "Data Sync",
+    "backToSite": "Back to Site",
+    "admin": "Admin",
+    "adminRole": "Administrator",
+    "logout": "Logout"
+  },
+  "admin": {
+    "welcome": "Welcome back",
+    "subtitle": "Here's what's happening with your platform today.",
+    "stats": {
+      "totalUsers": "Total Users",
+      "totalFunds": "Total Funds",
+      "aiChats": "AI Chats",
+      "tokensUsed": "Tokens Used",
+      "activeChats": "Active Chats",
+      "systemHealth": "System Health"
+    },
+    "message": {
+      "loading": "Loading...",
+      "error": "Error loading statistics"
+    },
+    "button": {
+      "retry": "Retry"
+    },
+    "recentActivity": "Recent Activity",
+    "quickActions": "Quick Actions",
+    "actions": {
+      "addUser": "Add User",
+      "syncData": "Sync Data",
+      "viewReports": "View Reports"
+    },
+    "systemStatus": "System Status",
+    "status": {
+      "api": "API",
+      "database": "Database",
+      "aiAgent": "AI Agent",
+      "vectorDB": "Vector DB",
+      "online": "Online"
+    }
+  },
+  "notFound": {
+    "banner": {
+      "title": "ERROR 404",
+      "subtitle": "Page not found • The requested resource does not exist"
+    },
+    "title": "404 - Page Not Found",
+    "subtitle": "Oops! The page you're looking for doesn't exist.",
+    "description": "The resource you requested could not be found. It may have been moved, deleted, or the URL might be incorrect.",
+    "navigation": {
+      "backToHome": "Back to Home",
+      "viewFunds": "Explore Funds",
+      "contactSupport": "Contact Support"
+    },
+    "suggestions": {
+      "title": "What can you do?",
+      "item1": "Check if the URL is correct",
+      "item2": "Go back to the home page",
+      "item3": "Explore our investment funds",
+      "item4": "Use the AI chat for assistance"
+    }
+  },
+  "metadata": {
+    "home": {
+      "title": "The Stock Club - Professional Investment Fund Analysis with AI",
+      "description": "Track, analyze, and optimize your investment portfolio with AI-powered tools. Access 44,000+ global funds with real-time data, comprehensive analytics, and institutional-grade insights."
+    },
+    "funds": {
+      "title": "Investment Funds Directory - 44,000+ Global Funds | The Stock Club",
+      "description": "Explore over 44,000 global investment funds with real-time analysis, professional performance metrics, and AI-powered insights. Compare returns, fees, and risk metrics."
+    },
+    "fundDetail": {
+      "title": "{fundName} ({isin}) - Detailed Analysis | The Stock Club",
+      "description": "Complete analysis of {fundName}. View historical performance, holdings, fees, risk metrics, and real-time data for informed investment decisions."
+    },
+    "chat": {
+      "title": "AI Investment Assistant - Chat with Fund Analysis AI | The Stock Club",
+      "description": "Get expert investment analysis and fund recommendations from our AI agents. Ask about funds, markets, strategies, and get instant data-driven insights."
+    },
+    "compare": {
+      "title": "Fund Comparison Tool - Compare Up to 5 Funds | The Stock Club",
+      "description": "Compare investment fund performance, fees, and returns. Simulate historical investments and analyze up to 5 funds side-by-side with real data."
+    },
+    "benchmark": {
+      "title": "Investment Benchmarks & Reference Indices | The Stock Club",
+      "description": "Explore investment benchmarks and reference indices. Compare fund performance against market indices and find funds tracking specific benchmarks."
+    },
+    "benchmarkDetail": {
+      "title": "{benchmarkName} - Funds & Performance | The Stock Club",
+      "description": "View all investment funds tracking {benchmarkName}. Compare performance, fees, and returns of funds benchmarked against this index."
+    },
+    "manager": {
+      "title": "{managerName} - Managed Funds & Performance | The Stock Club",
+      "description": "Explore investment funds managed by {managerName}. View portfolio, performance history, and detailed analysis of all managed funds."
+    },
+    "login": {
+      "title": "Login - Access Your Investment Portfolio | The Stock Club",
+      "description": "Sign in to The Stock Club to access your investment portfolio, AI chat history, and personalized fund recommendations."
+    },
+    "register": {
+      "title": "Create Account - Join The Stock Club | The Stock Club",
+      "description": "Create your free account to unlock AI-powered investment analysis, portfolio tracking, and access to 44,000+ global fund insights."
+    },
+    "admin": {
+      "title": "Admin Dashboard | The Stock Club",
+      "description": "Administrative dashboard for The Stock Club platform management."
+    },
+    "stocks": {
+      "title": "Stock Market Directory - Real-time Stock Analysis | The Stock Club",
+      "description": "Explore stocks with real-time analysis, comprehensive market data, and professional performance metrics. Access global stock markets with institutional-grade insights."
+    },
+    "stockDetail": {
+      "title": "{ticker} - Stock Analysis & Price History | The Stock Club",
+      "description": "Complete analysis of {ticker} stock. View historical performance, financial metrics, valuation ratios, and real-time data for informed investment decisions."
+    }
+  }
+}
+

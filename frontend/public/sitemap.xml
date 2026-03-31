@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://thestock.club/sitemap/home.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://thestock.club/sitemap/funds-1.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://thestock.club/sitemap/funds-2.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://thestock.club/sitemap/funds-3.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://thestock.club/sitemap/funds-4.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://thestock.club/sitemap/funds-5.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://thestock.club/sitemap/funds-6.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://thestock.club/sitemap/funds-7.xml</loc>
+  </sitemap>  
+  <sitemap>
+    <loc>https://thestock.club/sitemap/funds-8.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://thestock.club/sitemap/benchmarks.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://thestock.club/sitemap/managers.xml</loc>
+  </sitemap>
+</sitemapindex>
+

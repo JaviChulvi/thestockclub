@@ -1,0 +1,866 @@
+{
+  "header": {
+    "searchPlaceholder": "Buscar fondos...",
+    "searchPlaceholderMobile": "Buscar ISIN o nombre del fondo...",
+    "noFundsFound": "No se encontraron fondos",
+    "verifyAndRetry": "Verifique el ISIN o nombre e intente nuevamente",
+    "aiChat": "AI Chat",
+    "funds": "Fondos",
+    "benchmarks": "Benchmarks",
+    "compare": "Comparar",
+    "viewAll": "Ver Todos",
+    "login": "Login",
+    "register": "Registrarse",
+    "logout": "Cerrar Sesión",
+    "siteName": "The Stock Club",
+    "siteTagline": "Financial Intelligence"
+  },
+  "home": {
+    "newBanner": "NUEVO",
+    "newBannerText": "Agentes IA especializados en inversión de fondos de inversión • Compara fondos de inversión • Visualiza rendimientos de holdings",
+    "headline": "Potencia tus Decisiones de Inversión con IA",
+    "subheadline": "Donde los Datos se Convierten en Estrategia",
+    "heroDescription": "The Stock Club democratiza el acceso a herramientas de inversión profesionales. Toma decisiones informadas con análisis potenciado por IA de más de 44.000 fondos de inversión globales.",
+    "heroCTA1": "Probar Chat IA",
+    "heroCTA2": "Explorar Fondos",
+    "clickToEnlarge": "Hacer clic para ampliar",
+    "capabilitiesTitle": "Potentes Capacidades de IA a Tu Alcance",
+    "capabilitiesSubtitle": "Nuestros agentes IA entienden el análisis de fondos de inversión y proporcionan insights instantáneos",
+    "categorySearchTitle": "Búsqueda Inteligente por Categoría",
+    "categorySearchDescription": "Pregunta en lenguaje natural sobre categorías de inversión y obtén recomendaciones instantáneas de fondos con análisis detallado.",
+    "categorySearchExample": "Quiero invertir en renta fija a largo plazo",
+    "categorySearchResult1": "RF Largo Plazo EUR",
+    "categorySearchResult2": "Bonos de Vencimiento Fijo",
+    "categorySearchCTA": "Probar Búsqueda por Categoría",
+    "holdingsTitle": "Análisis de Posiciones",
+    "holdingsDescription": "Descubre en qué empresas invierten tus fondos y analiza el rendimiento de las principales posiciones con gráficos comparativos.",
+    "holdingsExample": "¿En qué empresas invierte el fondo LU1482751903?",
+    "holdingsResult": "Principales posiciones: Taiwan Semiconductor (8.45%), Microsoft (6.40%), Apple (5.42%)...",
+    "holdingsCTA": "Analizar Posiciones",
+    "comparisonTitle": "Comparación de Comisiones",
+    "comparisonDescription": "Compara comisiones de gestión, comisiones de éxito y gastos corrientes entre múltiples fondos para encontrar el mejor valor.",
+    "comparisonExample": "Compara las comisiones de los 3 primeros fondos de renta fija a largo plazo",
+    "comparisonResult": "Gestión: 0.20% - 0.30% | Éxito: 0% - 20%",
+    "comparisonCTA": "Comparar Fondos",
+    "additionalCapabilitiesTitle": "Capacidades Adicionales",
+    "ytdPerformanceTitle": "Mejores Rendimientos",
+    "ytdPerformanceDesc": "Descubre fondos con los mejores rendimientos del año en curso",
+    "volatilityTitle": "Riesgo y Volatilidad",
+    "volatilityDesc": "Analiza métricas de riesgo y volatilidad de cualquier fondo",
+    "drawdownTitle": "Análisis de Drawdown",
+    "drawdownDesc": "Comprende las caídas máximas y periodos de recuperación",
+    "multiFundTitle": "Comparación Multi-Fondo",
+    "multiFundDesc": "Compara rendimientos, comisiones y métricas entre fondos",
+    "chatFeatureTitle": "Chatea con Agentes IA",
+    "chatFeatureDescription": "Los agentes IA especializados en inversión de fondos de inversión te ayudarán a tomar decisiones informadas sobre tus inversiones.",
+    "compareFeatureTitle": "Calculadora de Rendimientos",
+    "compareFeatureDescription": "Proyecta tus inversiones y calcula rendimientos esperados. Simula diferentes escenarios y estrategias de inversión.",
+    "analysisFeatureTitle": "Análisis de Fondos",
+    "analysisFeatureDescription": "Accede a análisis detallados de más de 44.000 fondos globales. Compara rendimientos, ratios de gastos y métricas de riesgo en tiempo real.",
+    "howItWorksTitle": "Cómo Funciona",
+    "howItWorksStep1Title": "Haz Preguntas",
+    "howItWorksStep1Description": "Usa lenguaje natural para preguntar sobre fondos, categorías o estrategias de inversión.",
+    "howItWorksStep2Title": "Obtén Insights de IA",
+    "howItWorksStep2Description": "Nuestra IA analiza más de 44.000 fondos y proporciona recomendaciones instantáneas basadas en datos.",
+    "howItWorksStep3Title": "Toma Decisiones",
+    "howItWorksStep3Description": "Compara opciones, analiza riesgos y elige los mejores fondos para tu cartera.",
+    "faqTitle": "Preguntas Frecuentes",
+    "faqQuestion1": "¿Cómo funciona el agente de IA?",
+    "faqAnswer1": "Nuestro agente de IA utiliza modelos de lenguaje avanzados combinados con datos en tiempo real de más de 44.000 fondos de inversión. Entiende consultas en lenguaje natural y proporciona análisis instantáneos, recomendaciones e insights basados en rendimiento histórico, comisiones, métricas de riesgo y tendencias del mercado.",
+    "faqQuestion2": "¿Qué fuentes de datos utilizan?",
+    "faqAnswer2": "Agregamos datos de proveedores financieros líderes incluyendo Morningstar, Yahoo Finance y otras fuentes institucionales. Nuestra base de datos se actualiza regularmente para asegurar que tengas acceso a la información más actual sobre fondos, precios y posiciones.",
+    "faqQuestion3": "¿Puedo confiar en las recomendaciones de inversión?",
+    "faqAnswer3": "Nuestra IA proporciona insights basados en datos y rendimiento histórico, pero no deben considerarse asesoramiento financiero personalizado. El rendimiento pasado no garantiza resultados futuros. Siempre considera tu tolerancia al riesgo y objetivos de inversión antes de tomar decisiones.",
+    "faqQuestion4": "¿Con qué frecuencia se actualizan los datos?",
+    "faqAnswer4": "Los precios de los fondos se actualizan diariamente, mientras que otras métricas como posiciones y datos de rendimiento se refrescan semanalmente o cuando nuevos datos están disponibles de nuestros proveedores. Trabajamos continuamente para proporcionar la información más actualizada posible.",
+    "faqQuestion5": "¿Tiene algún coste usar The Stock Club?",
+    "faqAnswer5": "The Stock Club es actualmente gratuito con acceso completo a nuestro chat de IA, análisis de fondos y herramientas de comparación. Creemos en democratizar el acceso a herramientas de análisis de inversión profesionales. Funcionalidades premium podrían introducirse en el futuro.",
+    "faqQuestion6": "¿Qué hace diferente a The Stock Club?",
+    "faqAnswer6": "A diferencia de las plataformas de fondos tradicionales, The Stock Club combina comprensión de lenguaje natural potenciada por IA con análisis de datos completo. Puedes hacer preguntas en lenguaje natural y obtener insights instantáneos, en lugar de navegar manualmente por hojas de cálculo e informes complejos.",
+    "faqQuestion7": "¿Puede la IA analizar categorías específicas de fondos?",
+    "faqAnswer7": "¡Sí! La IA entiende categorías de inversión como renta variable, renta fija, enfoque regional y sectores específicos. Solo describe lo que buscas (por ejemplo, 'fondos de tecnología europea' o 'bonos a largo plazo') y encontrará opciones relevantes.",
+    "faqQuestion8": "¿Cómo comparo múltiples fondos?",
+    "faqAnswer8": "Puedes usar nuestra herramienta de comparación para analizar hasta 5 fondos simultáneamente. Compara rendimientos, comisiones, métricas de riesgo y visualiza el rendimiento histórico. Simplemente busca fondos por ISIN o nombre y añádelos a tu comparación.",
+    "keyBenefitsTitle": "Ventajas Clave",
+    "benefit1Title": "Acceso Democrático",
+    "benefit1Description": "Herramientas profesionales antes reservadas solo para grandes inversores.",
+    "benefit2Title": "Decisiones Informadas",
+    "benefit2Description": "Datos actualizados y análisis profundos para cada decisión de inversión.",
+    "benefit3Title": "Asistente 24/7",
+    "benefit3Description": "Consulta con nuestro asistente IA en cualquier momento del día.",
+    "benefit4Title": "Transparencia Total",
+    "benefit4Description": "Sin comisiones ocultas, toda la información clara y accesible.",
+    "statsTitle": "En Cifras",
+    "statsFunds": "Fondos de Inversión",
+    "statsAssets": "Activos Bajo Gestión",
+    "statsMarkets": "Mercados Globales",
+    "statsAvailability": "IA Disponible",
+    "trustSignal": "Sin tarjeta de crédito • Gratis para siempre",
+    "ctaTitle": "¿Listo para Tomar Decisiones de Inversión Más Inteligentes?",
+    "ctaDescription": "Únete a miles de inversores que usan análisis potenciado por IA para optimizar sus carteras.",
+    "ctaExploreFunds": "Explorar Fondos",
+    "ctaTryAI": "Iniciar Chat Gratis"
+  },
+  "chatDemo": {
+    "online": "En línea",
+    "inputPlaceholder": "Pregunta sobre fondos, acciones...",
+    "scenario1User": "Quiero informarme sobre $AAPL",
+    "scenario1Response": "**Apple Inc. (AAPL)** cotiza a **224.32 USD** con una rentabilidad a 1 año del **+25.8%**.",
+    "scenario1ChartTitle": "AAPL — 90 días",
+    "scenario2User": "¿En qué empresas invierte el fondo LU1482751903?",
+    "scenario2Response": "El fondo **Amundi MSCI World** tiene las siguientes posiciones principales:",
+    "scenario2ChartTitle": "Top Holdings — Rendimiento 90d",
+    "scenario3User": "¿Cuáles son los 3 fondos con mejor rendimiento en 90 días?",
+    "scenario3Response": "Los **3 fondos con mejor rendimiento** en los últimos 90 días:",
+    "scenario4User": "Quiero saber más sobre el fondo IE0032126645",
+    "scenario4Response": "**Vanguard Global Stock Index Fund** — renta variable global con un TER del **0.18%**, uno de los más bajos del mercado.",
+    "scenario4ChartTitle": "Precio — 1 año",
+    "scenario4PriceLabel": "Precio",
+    "scenario4VolatilityLabel": "Volatilidad",
+    "scenario5User": "Empresas de energía en Canadá",
+    "scenario5Response": "He encontrado **12 empresas** del sector energético en Canadá:",
+    "scenario5ChartTitle": "Resultados",
+    "scenario5Count": "12 empresas"
+  },
+  "footer": {
+    "tagline": "Tu Plataforma de Análisis de Inversión Potenciada por IA",
+    "productsTitle": "Productos",
+    "aiChat": "AI Chat",
+    "fundAnalysis": "Análisis de Fondos",
+    "comparison": "Comparación",
+    "benchmarks": "Benchmarks",
+    "resourcesTitle": "Recursos",
+    "documentation": "Documentación",
+    "guides": "Guías",
+    "support": "Soporte",
+    "legalTitle": "Legal",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "cookies": "Cookies",
+    "brandDescription": "La plataforma líder en análisis de fondos de inversión y gestión de carteras. Accede a inteligencia financiera institucional para optimizar tus inversiones.",
+    "sectionsTitle": "Secciones",
+    "sectionsFunds": "Fondos de Inversión",
+    "sectionsBenchmarks": "Benchmarks",
+    "toolsTitle": "Herramientas",
+    "toolsAIChat": "AI Chat",
+    "toolsCompare": "Comparador",
+    "legalNotice": "Aviso Legal",
+    "copyright": "Todos los derechos reservados.",
+    "copyrightLine": "© {year} The Stock Club Financial Intelligence. Todos los derechos reservados."
+  },
+  "fundCard": {
+    "label": {
+      "ytdReturn": "Rendimiento YTD",
+      "last90Days": "90 Días"
+    },
+    "button": {
+      "viewFullAnalysis": "Ver Análisis Completo"
+    }
+  },
+  "stockCard": {
+    "label": {
+      "marketCap": "Cap. de Mercado",
+      "oneYearReturn": "Rentabilidad 1 Año"
+    },
+    "button": {
+      "viewFullAnalysis": "Ver Análisis Completo"
+    }
+  },
+  "fundSearch": {
+    "title": "Búsqueda de Fondos de Inversión",
+    "subtitle": "Localice fondos por código ISIN o denominación comercial",
+    "placeholder": {
+      "search": "Ej: LU0178555495 o iShares MSCI World..."
+    },
+    "label": {
+      "isin": "ISIN",
+      "currentPrice": "Precio actual",
+      "fullPeriod": "período completo",
+      "instructions": "INSTRUCCIONES:",
+      "selected": "Seleccionados",
+      "selectedFundsForAnalysis": "Fondos Seleccionados para Análisis:"
+    },
+    "button": {
+      "add": "Añadir",
+      "remove": "Eliminar"
+    },
+    "message": {
+      "noResults": "No se encontraron fondos que coincidan con \"{term}\"",
+      "limitReached": "⚠️ LÍMITE ALCANZADO: Máximo 5 fondos permitidos para análisis comparativo",
+      "instructionsText": "Busque por código ISIN (ej: LU0178555495) o denominación del fondo."
+    }
+  },
+  "compare": {
+    "banner": {
+      "title": "ANÁLISIS",
+      "subtitle": "Compare hasta 5 fondos simultáneamente • Simule inversiones con datos históricos reales"
+    },
+    "title": "Comparador de Fondos de Inversión",
+    "subtitle": "Analice y compare el rendimiento de hasta 5 fondos de inversión con simulación de cartera histórica",
+    "section": {
+      "investmentCapital": "Capital de Inversión",
+      "investmentCapitalDesc": "Configure el monto inicial para la simulación de cartera",
+      "portfolioEvolution": "Evolución de la Cartera de Inversión",
+      "historicalSimulation": "Simulación histórica: {amount}€ invertidos en cada fondo seleccionado",
+      "comparisonAnalysis": "Análisis Comparativo de Rendimientos",
+      "comparisonAnalysisDesc": "Resumen detallado del rendimiento de cada fondo en la cartera simulada",
+      "startAnalysis": "Iniciar Análisis Comparativo",
+      "startAnalysisDesc": "Utilice el buscador superior para añadir fondos de inversión y comenzar la comparación de rendimientos"
+    },
+    "table": {
+      "header": {
+        "fund": "Fondo de Inversión",
+        "initialCapital": "Capital Inicial",
+        "currentValue": "Valor Actual",
+        "result": "Resultado",
+        "performance": "Rendimiento",
+        "management": "Gestión"
+      }
+    },
+    "button": {
+      "remove": "Eliminar"
+    },
+    "label": {
+      "instructions": "INSTRUCCIONES:"
+    },
+    "instructions": {
+      "step1": "Busque por ISIN o nombre del fondo",
+      "step2": "Seleccione hasta 5 fondos para comparar",
+      "step3": "Configure el capital de inversión",
+      "step4": "Analice la evolución histórica"
+    },
+    "message": {
+      "maxFundsAlert": "Máximo 5 fondos permitidos para comparar",
+      "fundAlreadyExists": "Este fondo ya está en la comparación",
+      "loading": "Cargando datos de fondos...",
+      "error": "Error al cargar los datos"
+    }
+  },
+  "funds": {
+    "title": "Directorio de Fondos de Inversión",
+    "subtitle": "Explore más de 44.000 fondos globales con análisis en tiempo real y métricas de rendimiento profesionales",
+    "filter": {
+      "all": "Todos",
+      "equity": "Renta Variable",
+      "fixedIncome": "Renta Fija",
+      "balanced": "Equilibrados",
+      "moneyMarket": "Mercado Monetario",
+      "selectCategory": "Filtrar por Categoría",
+      "allCategories": "Todas las Categorías"
+    },
+    "showing": "Mostrando {count} de {total} fondos",
+    "button": {
+      "loadMore": "Cargar más fondos"
+    },
+    "message": {
+      "loading": "Cargando datos de fondos...",
+      "loadingMore": "Cargando más fondos...",
+      "error": "Error al cargar los datos",
+      "noFunds": "No se encontraron fondos",
+      "noFundsDesc": "Intente ajustar sus filtros o criterios de búsqueda",
+      "endOfResults": "Has visto todos los {total} fondos disponibles"
+    }
+  },
+  "stocks": {
+    "title": "Directorio del Mercado de Valores",
+    "subtitle": "Explore acciones con análisis en tiempo real y datos de mercado completos",
+    "message": {
+      "loading": "Cargando datos de acciones...",
+      "error": "Error al cargar los datos",
+      "noStocks": "No se encontraron acciones",
+      "noStocksDesc": "No hay acciones disponibles en este momento"
+    },
+    "marketStats": {
+      "title": "Estadísticas del Mercado",
+      "stocksAnalyzed": "1.000+",
+      "stocksAnalyzedLabel": "Acciones Analizadas",
+      "marketCap": "$50T",
+      "marketCapLabel": "Cap. de Mercado Monitoreada",
+      "exchanges": "50+",
+      "exchangesLabel": "Bolsas Globales",
+      "availability": "24/7",
+      "availabilityLabel": "Datos en Tiempo Real"
+    }
+  },
+  "fundDetail": {
+    "banner": {
+      "title": "ANÁLISIS",
+      "subtitle": "Información detallada del fondo {isin} • Datos actualizados en tiempo real"
+    },
+    "header": {
+      "lastPrice": "Último Precio",
+      "fundClasses": "Clases del Fondo:",
+      "manager": "Gestor:"
+    },
+    "metrics": {
+      "ytdReturn": "Rendimiento YTD",
+      "ytdLabel": "Año en curso",
+      "last90Days": "Últimos 90 Días",
+      "quarterlyLabel": "Trimestre",
+      "baseCurrency": "Moneda Base",
+      "currencyLabel": "Divisa"
+    },
+    "priceChart": {
+      "title": "Histórico de Precios",
+      "dataRange": "Datos desde {start} hasta {end}"
+    },
+    "basicInfo": {
+      "title": "Información Básica",
+      "fullName": "Nombre Completo",
+      "shortName": "Nombre Corto",
+      "region": "Región",
+      "dataSource": "Fuente de Datos"
+    },
+    "fees": {
+      "title": "Comisiones y Gastos",
+      "feeType": "Tipo de Comisión",
+      "value": "Valor",
+      "management": "Comisión de Gestión",
+      "performance": "Comisión de Éxito",
+      "custody": "Comisión de Custodia",
+      "ongoing": "Gastos Corrientes",
+      "redemption": "Comisión de Reembolso",
+      "subscription": "Comisión de Suscripción"
+    },
+    "sectors": {
+      "title": "Distribución por Sectores",
+      "sector": "Sector",
+      "weight": "Peso"
+    },
+    "holdings": {
+      "title": "Principales Holdings",
+      "name": "Nombre",
+      "symbol": "Símbolo",
+      "percentage": "Porcentaje"
+    },
+    "assetClasses": {
+      "title": "Distribución de Activos"
+    },
+    "bonds": {
+      "title": "Características de Bonos",
+      "metric": "Métrica",
+      "value": "Valor",
+      "categoryAverage": "Promedio Categoría"
+    },
+    "equity": {
+      "title": "Métricas de Acciones",
+      "metric": "Métrica",
+      "value": "Valor",
+      "categoryAverage": "Promedio Categoría"
+    },
+    "additionalInfo": {
+      "title": "Información Adicional",
+      "benchmark": "Benchmark",
+      "fundAssets": "Activos del Fondo",
+      "classAssets": "Activos de la Clase",
+      "startDate": "Fecha de Inicio",
+      "fundInfo": "Información del Fondo",
+      "family": "Familia:",
+      "bondRatings": "Calificaciones de Bonos"
+    },
+    "navigation": {
+      "backToFunds": "← Volver a Fondos",
+      "consultAI": "Consultar IA sobre este Fondo"
+    },
+    "disclaimer": {
+      "title": "Aviso Legal:",
+      "text": "La información mostrada tiene carácter meramente informativo y no constituye asesoramiento financiero personalizado. Los rendimientos pasados no garantizan resultados futuros. Considere su tolerancia al riesgo y objetivos de inversión antes de tomar decisiones."
+    },
+    "message": {
+      "loading": "Cargando información del fondo...",
+      "error": "Error al cargar el fondo",
+      "errorDesc": "No se encontró información para este ISIN",
+      "notFound": "Fondo"
+    }
+  },
+  "stockDetail": {
+    "banner": {
+      "title": "ANÁLISIS",
+      "subtitle": "Información detallada de la acción {ticker} • Datos actualizados en tiempo real"
+    },
+    "header": {
+      "currentPrice": "Precio Actual"
+    },
+    "metrics": {
+      "marketCap": "Cap. de Mercado",
+      "peRatio": "Ratio P/E",
+      "ytdReturn": "Rentabilidad YTD",
+      "90DayReturn": "90 Días"
+    },
+    "priceChart": {
+      "title": "Historial de Precios",
+      "dataRange": "Datos desde {start} hasta {end} ({count} puntos de datos)"
+    },
+    "companyInfo": {
+      "title": "Información de la Empresa",
+      "sector": "Sector",
+      "industry": "Industria",
+      "country": "País",
+      "employees": "Empleados",
+      "website": "Sitio Web"
+    },
+    "valuation": {
+      "title": "Métricas de Valoración",
+      "metric": "Métrica",
+      "value": "Valor",
+      "trailingPE": "P/E Trailing",
+      "forwardPE": "P/E Forward",
+      "priceToBook": "Precio/Valor Contable",
+      "beta": "Beta"
+    },
+    "financial": {
+      "title": "Rendimiento Financiero",
+      "revenue": "Ingresos Totales",
+      "netIncome": "Beneficio Neto",
+      "profitMargin": "Margen de Beneficio",
+      "roe": "Rentabilidad sobre Patrimonio"
+    },
+    "growth": {
+      "title": "Crecimiento y Riesgo",
+      "revenueGrowth": "Crecimiento de Ingresos",
+      "earningsGrowth": "Crecimiento de Beneficios",
+      "52WeekHigh": "Máximo 52 Semanas",
+      "52WeekLow": "Mínimo 52 Semanas"
+    },
+    "summary": {
+      "title": "Resumen del Negocio"
+    },
+    "analyst": {
+      "title": "Recomendaciones de Analistas",
+      "recommendation": "Recomendación",
+      "targetPrice": "Precio Objetivo",
+      "numAnalysts": "Número de Analistas"
+    },
+    "navigation": {
+      "backToStocks": "← Volver a Acciones",
+      "consultAI": "Consultar IA sobre esta Acción"
+    },
+    "disclaimer": {
+      "title": "Aviso Legal:",
+      "text": "La información mostrada es solo para fines informativos y no constituye asesoramiento financiero personalizado. Los rendimientos pasados no garantizan resultados futuros. Considere su tolerancia al riesgo y objetivos de inversión antes de tomar decisiones."
+    },
+    "message": {
+      "loading": "Cargando información de la acción...",
+      "error": "Error al cargar la acción",
+      "errorDesc": "No se encontró información para este símbolo"
+    }
+  },
+  "benchmark": {
+    "title": "Benchmarks Disponibles",
+    "subtitle": "Explore los índices de referencia ordenados por popularidad (número de fondos asociados)",
+    "banner": {
+      "title": "BENCHMARKS",
+      "subtitle": "Índices de referencia ordenados por número de fondos • {total} benchmarks disponibles"
+    },
+    "showing": "Mostrando {count} de {total} benchmarks",
+    "button": {
+      "viewFunds": "Ver Fondos Relacionados",
+      "loadMore": "Cargar más benchmarks"
+    },
+    "message": {
+      "loading": "Cargando benchmarks...",
+      "loadingMore": "Cargando más benchmarks...",
+      "error": "Error al cargar los benchmarks",
+      "noFunds": "No se encontraron benchmarks",
+      "noFundsDesc": "No hay benchmarks disponibles en el sistema.",
+      "endOfResults": "Has visto todos los {total} benchmarks disponibles"
+    },
+    "navigation": {
+      "backToFunds": "← Volver a Fondos",
+      "consulting": "Consultar IA sobre Fondos"
+    }
+  },
+  "benchmarkDetail": {
+    "banner": {
+      "title": "BENCHMARK",
+      "subtitle": "Fondos relacionados con {name} • {total} fondos disponibles"
+    },
+    "header": {
+      "label": "Benchmark",
+      "relatedFunds": "Fondos Relacionados"
+    },
+    "showing": "Mostrando {count} de {total} fondos",
+    "button": {
+      "loadMore": "Cargar más fondos"
+    },
+    "message": {
+      "loading": "Cargando fondos del benchmark...",
+      "loadingMore": "Cargando más fondos...",
+      "error": "Error al cargar el benchmark",
+      "errorDesc": "No se encontró información para este benchmark",
+      "noFunds": "No se encontraron fondos",
+      "noFundsDesc": "Este benchmark no tiene fondos asociados en el sistema.",
+      "endOfResults": "Has visto todos los {total} fondos disponibles"
+    },
+    "navigation": {
+      "backToFunds": "Volver a Fondos",
+      "viewAll": "Ver Todos los Fondos",
+      "consulting": "Consultar IA sobre Fondos"
+    }
+  },
+  "chat": {
+    "title": "Asistente IA",
+    "subtitle": "Obtenga análisis experto y recomendaciones de inversión de nuestros agentes IA",
+    "placeholder": "Pregunte cualquier cosa sobre fondos, mercados o estrategias de inversión...",
+    "button": {
+      "send": "Enviar",
+      "new": "Nuevo Chat"
+    },
+    "message": {
+      "loading": "La IA está pensando...",
+      "error": "Error al enviar el mensaje"
+    }
+  },
+  "chatDetail": {
+    "title": "Conversación",
+    "backToChats": "Volver a Chats"
+  },
+  "auth": {
+    "login": {
+      "title": "Accede al Club",
+      "subtitle": "Tu puerta a la inteligencia financiera institucional.",
+      "label": {
+        "email": "Correo electrónico",
+        "password": "Contraseña"
+      },
+      "placeholder": {
+        "email": "tu.correo@dominio.com",
+        "password": "Ingresa tu contraseña"
+      },
+      "button": {
+        "submit": "Accede a tu cuenta",
+        "authenticating": "Autenticando..."
+      },
+      "link": {
+        "forgotPassword": "¿Olvidaste tus credenciales?",
+        "noAccount": "Crear nueva cuenta"
+      },
+      "benefits": {
+        "title": "¿Por qué elegir The Stock Club?",
+        "item1": "Análisis de fondos de inversión de calidad institucional: Accede a herramientas de análisis de fondos de inversión de calidad institucional",
+        "item2": "Datos en tiempo real: Datos en tiempo real y seguimiento de carteras",
+        "item3": "IA potenciada: Algoritmos avanzados para recomendaciones de inversión",
+        "item4": "Investigación profunda: Análisis profundo de miles de fondos",
+        "item5": "Optimización de carteras: Herramientas avanzadas para la gestión de riesgos",
+        "security": "Tus datos están protegidos con seguridad de nivel empresarial:",
+        "ssl": "SSL cifrado",
+        "gdpr": "GDPR compatible",
+        "soc2": "SOC 2 certificado"
+      },
+      "footer": "Al acceder a The Stock Club, aceptas nuestros",
+      "terms": "Términos de servicio",
+      "privacy": "Política de privacidad",
+      "and": "y",
+      "message": {
+        "error": "Acceso denegado: ",
+        "invalidCredentials": "Correo electrónico o contraseña inválidos"
+      }
+    },
+    "register": {
+      "title": "Únete al Club",
+      "subtitle": "Accede a la inteligencia financiera institucional.",
+      "label": {
+        "firstName": "Nombre",
+        "lastName": "Apellidos",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "confirmPassword": "Confirmar contraseña"
+      },
+      "placeholder": {
+        "password": "Mín 10 caracteres, A-Z, a-z, 0-9, especial",
+        "confirmPassword": "Re-ingresa tu contraseña"
+      },
+      "button": {
+        "submit": "Crear cuenta",
+        "creating": "Creando cuenta..."
+      },
+      "link": {
+        "haveAccount": "¿Ya tienes una cuenta? Inicia sesión aquí"
+      },
+      "benefits": {
+        "title": "¿Por qué elegir The Stock Club?",
+        "item1": "Análisis de fondos de inversión de calidad institucional: Accede a herramientas de análisis de fondos de inversión de calidad institucional",
+        "item2": "Datos en tiempo real: Datos en tiempo real y seguimiento de carteras",
+        "item3": "IA potenciada: Algoritmos avanzados para recomendaciones de inversión",
+        "item4": "Investigación profunda: Análisis profundo de miles de fondos",
+        "item5": "Optimización de carteras: Herramientas avanzadas para la gestión de riesgos",
+        "security": "Tus datos están protegidos con seguridad de nivel empresarial:",
+        "ssl": "SSL cifrado",
+        "gdpr": "GDPR compatible",
+        "soc2": "SOC 2 certificado"
+      },
+      "footer": "Al crear una cuenta, aceptas nuestros",
+      "terms": "Términos de servicio",
+      "privacy": "Política de privacidad",
+      "success": {
+        "title": "¡Cuenta Creada Exitosamente!",
+        "message": "Tu cuenta de The Stock Club ha sido creada. Serás redirigido a la página de inicio de sesión en breve."
+      },
+      "and": "y",
+      "message": {
+        "error": "Error de registro: ",
+        "registrationFailed": "Registro fallido. Por favor intenta de nuevo.",
+        "passwordMismatch": "Las contraseñas no coinciden",
+        "passwordShort": "La contraseña debe tener al menos 10 caracteres",
+        "passwordWeak": "La contraseña debe contener mayúsculas, minúsculas, número y carácter especial"
+      }
+    }
+  },
+  "manager": {
+    "banner": {
+      "title": "GESTORA",
+      "subtitle": "Fondos gestionados por {name} • {count} fondos disponibles"
+    },
+    "header": {
+      "label": "Gestora de Fondos",
+      "managedFunds": "Fondos Gestionados"
+    },
+    "message": {
+      "loading": "Cargando fondos de la gestora...",
+      "error": "Error al cargar la gestora",
+      "errorDesc": "No se encontró información para esta gestora",
+      "noFunds": "No se encontraron fondos",
+      "noFundsDesc": "Esta gestora no tiene fondos registrados en el sistema."
+    },
+    "navigation": {
+      "backToFunds": "← Volver a Fondos",
+      "viewAll": "Ver Todos los Fondos",
+      "consulting": "Consultar IA sobre Fondos"
+    }
+  },
+  "common": {
+    "button": {
+      "close": "Cerrar",
+      "cancel": "Cancelar",
+      "save": "Guardar",
+      "delete": "Eliminar",
+      "edit": "Editar",
+      "back": "Atrás",
+      "send": "Enviar",
+      "sending": "Enviando..."
+    },
+    "message": {
+      "loading": "Cargando...",
+      "error": "Ocurrió un error",
+      "success": "Operación completada correctamente",
+      "noData": "No hay datos disponibles"
+    },
+    "label": {
+      "date": "Fecha",
+      "amount": "Cantidad",
+      "status": "Estado"
+    }
+  },
+  "chatContent": {
+    "sidebar": {
+      "title": "Conversaciones",
+      "noConversations": "No hay conversaciones aún",
+      "newChat": "Nueva Conversación"
+    },
+    "input": {
+      "placeholder": "Consulte sobre fondos de inversión, tendencias del mercado, estrategias de cartera...",
+      "disclaimer": "Aviso: El asistente IA puede cometer errores. Verifique información importante antes de tomar decisiones de inversión."
+    },
+    "quickPrompts": {
+      "title": "Consultas Frecuentes"
+    },
+    "message": {
+      "error": "Disculpe, tengo problemas para conectar con mis servidores en este momento. Por favor intente de nuevo en unos momentos."
+    }
+  },
+  "topHoldings": {
+    "title": "Principales Posiciones - Rendimiento Comparativo",
+    "description": "Evolución comparativa del rendimiento porcentual de las principales acciones desde el inicio del período",
+    "message": {
+      "loading": "Cargando datos de posiciones...",
+      "error": "Error al cargar las posiciones",
+      "noHoldingsData": "No hay datos de posiciones disponibles"
+    }
+  },
+  "stockRecommendations": {
+    "title": "Recomendaciones de Analistas",
+    "subtitle": "Consenso agregado de analistas para las principales acciones del fondo",
+    "positive": "🟢 Positivo",
+    "neutral": "⚪ Neutral",
+    "negative": "🔴 Negativo",
+    "sentiment": {
+      "veryPositive": "Muy Positivo",
+      "positive": "Positivo",
+      "neutralPositive": "Neutral-Positivo",
+      "neutralNegative": "Neutral-Negativo",
+      "negative": "Negativo"
+    },
+    "label": {
+      "recommendations": "recomendaciones",
+      "strongBuy": "Compra Fuerte",
+      "buy": "Compra",
+      "hold": "Mantener",
+      "sell": "Venta",
+      "strongSell": "Venta Fuerte",
+      "positiveRecs": "Positivas",
+      "neutralRecs": "Neutras",
+      "negativeRecs": "Negativas"
+    },
+    "period": {
+      "current": "Actual",
+      "oneMonth": "1 Mes",
+      "twoMonths": "2 Meses",
+      "threeMonths": "3 Meses"
+    },
+    "consensusAnalysis": {
+      "title": "Análisis del Consenso",
+      "text": "El consenso <strong>{period}</strong> muestra <strongGreen>{positiveCount}</strongGreen> recomendaciones positivas de un total de <strongBlack>{totalCount}</strongBlack> analistas ({positivePercent}%). El sentimiento general es <strongSentiment>{sentiment}</strongSentiment> con un net score de <strongSentiment>{netScore}/100</strongSentiment>."
+    }
+  },
+  "comparisonChart": {
+    "noData": "No hay datos para mostrar",
+    "legend": {
+      "title": "Leyenda del Gráfico:",
+      "initialCapital": "Capital Inicial:"
+    }
+  },
+  "protectedRoute": {
+    "message": {
+      "loading": "Cargando..."
+    },
+    "comingSoon": {
+      "title": "Próximamente",
+      "description": "Actualmente estamos trabajando en esta emocionante funcionalidad. Esta característica está en desarrollo activo y estará disponible pronto.",
+      "betaTitle": "Conviértete en Beta Tester",
+      "betaDescription": "¿Quieres acceso anticipado? Estamos buscando beta testers para ayudarnos a mejorar esta funcionalidad. ¡Ponte en contacto para estar entre los primeros en probarla!",
+      "contactButton": "Contactar en LinkedIn",
+      "backButton": "Volver al Inicio"
+    }
+  },
+  "adminRoute": {
+    "loading": "Cargando...",
+    "accessDenied": {
+      "title": "Acceso Denegado",
+      "description": "No tienes permisos para acceder a esta página. Esta área está restringida solo para administradores.",
+      "backButton": "Volver al Inicio"
+    }
+  },
+  "adminHeader": {
+    "adminPanel": "Panel de Administración",
+    "management": "Panel de Gestión",
+    "dashboard": "Panel Principal",
+    "users": "Usuarios",
+    "funds": "Fondos",
+    "stocks": "Acciones",
+    "dataSync": "Data Sync",
+    "backToSite": "Volver al Sitio",
+    "admin": "Admin",
+    "adminRole": "Administrador",
+    "logout": "Cerrar Sesión"
+  },
+  "admin": {
+    "welcome": "Bienvenido de nuevo",
+    "subtitle": "Esto es lo que está sucediendo con tu plataforma hoy.",
+    "stats": {
+      "totalUsers": "Usuarios Totales",
+      "totalFunds": "Fondos Totales",
+      "aiChats": "Chats IA",
+      "tokensUsed": "Tokens Usados",
+      "activeChats": "Chats Activos",
+      "systemHealth": "Salud del Sistema"
+    },
+    "message": {
+      "loading": "Cargando...",
+      "error": "Error al cargar las estadísticas"
+    },
+    "button": {
+      "retry": "Reintentar"
+    },
+    "recentActivity": "Actividad Reciente",
+    "quickActions": "Acciones Rápidas",
+    "actions": {
+      "addUser": "Añadir Usuario",
+      "syncData": "Sincronizar Datos",
+      "viewReports": "Ver Informes"
+    },
+    "systemStatus": "Estado del Sistema",
+    "status": {
+      "api": "API",
+      "database": "Base de Datos",
+      "aiAgent": "Agente IA",
+      "vectorDB": "Vector DB",
+      "online": "En Línea"
+    }
+  },
+  "notFound": {
+    "banner": {
+      "title": "ERROR 404",
+      "subtitle": "Página no encontrada • El recurso solicitado no existe"
+    },
+    "title": "404 - Página No Encontrada",
+    "subtitle": "¡Ups! La página que buscas no existe.",
+    "description": "El recurso que solicitaste no pudo ser encontrado. Puede haber sido movido, eliminado o la URL puede ser incorrecta.",
+    "navigation": {
+      "backToHome": "Volver al Inicio",
+      "viewFunds": "Explorar Fondos",
+      "contactSupport": "Contactar Soporte"
+    },
+    "suggestions": {
+      "title": "¿Qué puedes hacer?",
+      "item1": "Verifica que la URL sea correcta",
+      "item2": "Vuelve a la página de inicio",
+      "item3": "Explora nuestros fondos de inversión",
+      "item4": "Usa el chat IA para obtener ayuda"
+    }
+  },
+  "metadata": {
+    "home": {
+      "title": "The Stock Club - Análisis Profesional de Fondos de Inversión con IA",
+      "description": "Rastrea, analiza y optimiza tu cartera de inversión con herramientas potenciadas por IA. Accede a más de 44.000 fondos globales con datos en tiempo real, análisis completos e insights de nivel institucional."
+    },
+    "funds": {
+      "title": "Directorio de Fondos de Inversión - Más de 44.000 Fondos Globales | The Stock Club",
+      "description": "Explora más de 44.000 fondos de inversión globales con análisis en tiempo real, métricas de rendimiento profesionales e insights potenciados por IA. Compara rendimientos, comisiones y métricas de riesgo."
+    },
+    "fundDetail": {
+      "title": "{fundName} ({isin}) - Análisis Detallado | The Stock Club",
+      "description": "Análisis completo de {fundName}. Consulta rendimiento histórico, posiciones, comisiones, métricas de riesgo y datos en tiempo real para decisiones de inversión informadas."
+    },
+    "chat": {
+      "title": "Asistente IA de Inversión - Chatea con IA de Análisis de Fondos | The Stock Club",
+      "description": "Obtén análisis experto de inversión y recomendaciones de fondos de nuestros agentes IA. Pregunta sobre fondos, mercados, estrategias y obtén insights instantáneos basados en datos."
+    },
+    "compare": {
+      "title": "Herramienta de Comparación de Fondos - Compara Hasta 5 Fondos | The Stock Club",
+      "description": "Compara rendimiento, comisiones y retornos de fondos de inversión. Simula inversiones históricas y analiza hasta 5 fondos lado a lado con datos reales."
+    },
+    "benchmark": {
+      "title": "Benchmarks de Inversión e Índices de Referencia | The Stock Club",
+      "description": "Explora benchmarks de inversión e índices de referencia. Compara el rendimiento de fondos contra índices del mercado y encuentra fondos que siguen benchmarks específicos."
+    },
+    "benchmarkDetail": {
+      "title": "{benchmarkName} - Fondos y Rendimiento | The Stock Club",
+      "description": "Consulta todos los fondos de inversión que siguen {benchmarkName}. Compara rendimiento, comisiones y retornos de fondos referenciados a este índice."
+    },
+    "manager": {
+      "title": "{managerName} - Fondos Gestionados y Rendimiento | The Stock Club",
+      "description": "Explora fondos de inversión gestionados por {managerName}. Consulta cartera, historial de rendimiento y análisis detallado de todos los fondos gestionados."
+    },
+    "login": {
+      "title": "Login - Accede a Tu Cartera de Inversión | The Stock Club",
+      "description": "Inicia sesión en The Stock Club para acceder a tu cartera de inversión, historial de chat IA y recomendaciones personalizadas de fondos."
+    },
+    "register": {
+      "title": "Crear Cuenta - Únete a The Stock Club | The Stock Club",
+      "description": "Crea tu cuenta gratuita para desbloquear análisis de inversión potenciado por IA, seguimiento de cartera y acceso a insights de más de 44.000 fondos globales."
+    },
+    "admin": {
+      "title": "Panel de Administración | The Stock Club",
+      "description": "Panel administrativo para la gestión de la plataforma The Stock Club."
+    },
+    "stocks": {
+      "title": "Directorio del Mercado de Valores - Análisis de Acciones en Tiempo Real | The Stock Club",
+      "description": "Explore acciones con análisis en tiempo real, datos de mercado completos y métricas de rendimiento profesionales. Acceda a mercados bursátiles globales con insights de nivel institucional."
+    },
+    "stockDetail": {
+      "title": "{ticker} - Análisis de Acciones e Historial de Precios | The Stock Club",
+      "description": "Análisis completo de la acción {ticker}. Visualice el rendimiento histórico, métricas financieras, ratios de valoración y datos en tiempo real para decisiones de inversión informadas."
+    }
+  }
+}
+
