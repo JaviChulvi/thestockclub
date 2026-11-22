@@ -33,7 +33,7 @@ def get_user_from_session(authorization: str = Header(None)) -> Optional[str]:
         authorization = authorization[7:]
 
     session = db.get_session_by_token(authorization)
-    if session:
+    if session and session.get('is_active'):
         return session.get('user_id')
 
     return None

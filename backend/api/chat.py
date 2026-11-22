@@ -52,6 +52,12 @@ def _load_chat_history(conversation_id: int) -> List:
     return chat_history[-MAX_CHAT_HISTORY:]
 
 
+def _require_ai_permission(user_id: int):
+    user = db.get_user_by_id(user_id)
+    if not user or not user.get('ai_enabled'):
+        raise error_response(403, 'AI access disabled')
+
+
 def _handle_chat_logic(
     message: str,
     user_id: int,
@@ -59,6 +65,8 @@ def _handle_chat_logic(
     conversation_id: Optional[int] = None
 ) -> dict:
     """Core chat logic handling both new and existing conversations"""
+
+    _require_ai_permission(user_id)
 
     # Determine if this is a new conversation
     is_new_conversation = conversation_id is None
@@ -83,13 +91,13 @@ def _handle_chat_logic(
         if not conversation:
             raise error_response(404, 'Conversation not found or access denied')
 
+        # Load prior history before persisting the current turn.
+        chat_history = _load_chat_history(db_conversation_id)
+
         # Add user message to database
         message_id = db.add_message(db_conversation_id, message, 'user')
         if not message_id:
             raise error_response(500, 'Failed to save message')
-
-        # Load chat history from database (already includes the user message we just saved)
-        chat_history = _load_chat_history(db_conversation_id)
 
     # Get response from agent
     if agent is None:
@@ -247,8 +255,8 @@ def delete_conversation(
     )
 
     # Delete from database (messages will be cascade deleted)
-    delete_query = "DELETE FROM conversations WHERE id = %s"
-    db.execute_non_query(delete_query, (conversation_id,))
+    delete_query = "DELETE FROM conversations WHERE id = :conversation_id AND user_id = :user_id"
+    db.execute_non_query(delete_query, {'conversation_id': conversation_id, 'user_id': user_id})
 
     return success_response(
         message=f'Conversation {conversation_id} deleted successfully'
