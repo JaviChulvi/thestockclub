@@ -52,6 +52,12 @@ def _load_chat_history(conversation_id: int) -> List:
     return chat_history[-MAX_CHAT_HISTORY:]
 
 
+def _require_ai_permission(user_id: int):
+    user = db.get_user_by_id(user_id)
+    if not user or not user.get('ai_enabled'):
+        raise error_response(403, 'AI access disabled')
+
+
 def _handle_chat_logic(
     message: str,
     user_id: int,
@@ -59,6 +65,8 @@ def _handle_chat_logic(
     conversation_id: Optional[int] = None
 ) -> dict:
     """Core chat logic handling both new and existing conversations"""
+
+    _require_ai_permission(user_id)
 
     # Determine if this is a new conversation
     is_new_conversation = conversation_id is None
