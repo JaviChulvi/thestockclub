@@ -31,7 +31,7 @@ class Message(Base, IdMixin):
     __table_args__ = (
         CheckConstraint("message_type IN ('user', 'ai')", name='check_message_type'),
         Index('idx_conversation_id', 'conversation_id'),
-        Index('idx_created_at', 'created_at'),
+        Index('idx_messages_created_at', 'created_at'),
         Index('idx_conversation_created', 'conversation_id', 'created_at'),
     )
 
