@@ -256,13 +256,13 @@ def get_task_status(
         try:
             # Check if process exists
             os.kill(task['process_id'], 0)  # Signal 0 doesn't kill, just checks
-        except OSError:
-            # Process doesn't exist anymore, update status
-            db.update_task_status(
-                task_id=task_id,
-                status=TaskStatus.COMPLETED
-            )
-            task = db.get_task_by_id(task_id)
+        except ProcessLookupError:
+            # The monitor may already have recorded a terminal result. Never
+            # write an inferred result over it; report an unknown outcome only
+            # while the persisted record still says running.
+            task = get_resource_or_404(db.get_task_by_id, task_id, "Task")
+            if task['status'] == 'running':
+                task = dict(task, status='failed', error_message='Process not found; exit status unknown')
 
     return TaskStatusResponse(
         success=True,
@@ -331,14 +331,9 @@ def stop_task(
         )
 
     except ProcessLookupError:
-        # Process doesn't exist anymore
-        db.update_task_status(
-            task_id=task_id,
-            status=TaskStatus.COMPLETED
-        )
         raise error_response(
             404,
-            'Process not found, it may have already completed'
+            'Process not found; exit status unknown'
         )
     except PermissionError:
         raise error_response(403, 'Permission denied to kill process')
