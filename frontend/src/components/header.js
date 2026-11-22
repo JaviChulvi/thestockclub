@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef, useContext } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import { useTranslations } from 'next-intl';
@@ -28,20 +28,7 @@ export default function Header() {
   // Check if we're on a chat page
   const isChatPage = pathname?.includes('/chat');
 
-  // Try to get chat sidebar context — safe because ChatSidebarProvider
-  // wraps the Header on chat pages via LayoutWrapper
-  let isSidebarOpen = false;
-  let openSidebar = null;
-
-  if (isChatPage) {
-    try {
-      const chatContext = useChatSidebar();
-      isSidebarOpen = chatContext.isSidebarOpen;
-      openSidebar = chatContext.openSidebar;
-    } catch (e) {
-      // Context not available (non-chat pages)
-    }
-  }
+  const { isSidebarOpen = false, openSidebar = null } = useChatSidebar();
 
   // Close menu when clicking outside
   useEffect(() => {
