@@ -255,8 +255,8 @@ def delete_conversation(
     )
 
     # Delete from database (messages will be cascade deleted)
-    delete_query = "DELETE FROM conversations WHERE id = %s"
-    db.execute_non_query(delete_query, (conversation_id,))
+    delete_query = "DELETE FROM conversations WHERE id = :conversation_id AND user_id = :user_id"
+    db.execute_non_query(delete_query, {'conversation_id': conversation_id, 'user_id': user_id})
 
     return success_response(
         message=f'Conversation {conversation_id} deleted successfully'

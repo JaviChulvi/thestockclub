@@ -82,7 +82,7 @@ export default function HomeClient() {
             </CardHeader>
             <CardContent>
               <div className="bg-gray-100 border-l-4 border-black p-4 mb-4">
-                <p className="text-sm italic text-gray-700 mb-3">"{t('categorySearchExample')}"</p>
+                <p className="text-sm italic text-gray-700 mb-3">&quot;{t('categorySearchExample')}&quot;</p>
                 <div className="space-y-2 text-sm">
                   <div className="bg-white border border-gray-300 p-2">
                     <span className="font-bold">{t('categorySearchResult1')}</span>
@@ -112,7 +112,7 @@ export default function HomeClient() {
             </CardHeader>
             <CardContent>
               <div className="bg-gray-100 border-l-4 border-black p-4 mb-4">
-                <p className="text-sm italic text-gray-700 mb-3">"{t('holdingsExample')}"</p>
+                <p className="text-sm italic text-gray-700 mb-3">&quot;{t('holdingsExample')}&quot;</p>
                 <div className="space-y-1 text-sm">
                   <div className="flex justify-between">
                     <span>Taiwan Semiconductor</span>
@@ -145,7 +145,7 @@ export default function HomeClient() {
             </CardHeader>
             <CardContent>
               <div className="bg-gray-100 border-l-4 border-black p-4 mb-4">
-                <p className="text-sm italic text-gray-700 mb-3">"{t('comparisonExample')}"</p>
+                <p className="text-sm italic text-gray-700 mb-3">&quot;{t('comparisonExample')}&quot;</p>
                 <div className="space-y-2 text-xs">
                   <div className="bg-white border border-gray-300 p-2">
                     <div className="font-bold mb-1">Candriam Bds Euro Long Term</div>

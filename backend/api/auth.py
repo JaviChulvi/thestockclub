@@ -192,6 +192,9 @@ def login(login_data: LoginRequest):
         record_failed_login(email)
         raise HTTPException(status_code=401, detail='Invalid email or password')
 
+    if not user.get('is_active'):
+        raise HTTPException(status_code=401, detail='Invalid email or password')
+
     # Clear failed login attempts
     clear_failed_login(email)
 
