@@ -57,3 +57,7 @@ The agent decides which tools to call based on the user's message. Responses can
 **Backend:** FastAPI, SQLAlchemy 2.0, PostgreSQL + pgvector, LangChain, Alembic
 
 **Frontend:** Next.js 15, React 19, Tailwind CSS, Radix UI, @visx charts, next-intl
+
+## Database initialization
+
+Database initialization creates missing tables but does not add missing indexes to existing tables. Existing indexes and data are left unchanged; use a reviewed migration if an existing table needs an index.
