@@ -91,13 +91,13 @@ def _handle_chat_logic(
         if not conversation:
             raise error_response(404, 'Conversation not found or access denied')
 
+        # Load prior history before persisting the current turn.
+        chat_history = _load_chat_history(db_conversation_id)
+
         # Add user message to database
         message_id = db.add_message(db_conversation_id, message, 'user')
         if not message_id:
             raise error_response(500, 'Failed to save message')
-
-        # Load chat history from database (already includes the user message we just saved)
-        chat_history = _load_chat_history(db_conversation_id)
 
     # Get response from agent
     if agent is None:
